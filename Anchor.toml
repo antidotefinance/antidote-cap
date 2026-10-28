@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+levcap = "Gq9eEG2mnAefVGtcgnmZeutUitKvZoxErxL27RALJ7U"
+
+[programs.devnet]
+levcap = "Gq9eEG2mnAefVGtcgnmZeutUitKvZoxErxL27RALJ7U"
+
+[programs.mainnet]
+levcap = "Gq9eEG2mnAefVGtcgnmZeutUitKvZoxErxL27RALJ7U"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
